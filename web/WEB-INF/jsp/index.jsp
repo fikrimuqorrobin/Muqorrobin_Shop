@@ -11,7 +11,10 @@
     </head>
 
     <body>
-        <jsp:include page="header.jsp"></jsp:include>
-        <a href="${pageContext.request.contextPath}/reg">Register</a>
+        <div class="container">
+            <jsp:include page="header.jsp"></jsp:include>
+            <a href="${pageContext.request.contextPath}/reg" class="btn btn-primary">Register</a>
+        </div>
+       
     </body>
 </html>
