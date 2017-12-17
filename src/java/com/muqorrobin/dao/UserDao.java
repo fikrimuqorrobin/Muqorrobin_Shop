@@ -19,6 +19,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 @Transactional
 public class UserDao {
+
     static final Logger logger = Logger.getLogger(UserDao.class.getName());
 
     @PersistenceUnit
@@ -39,7 +40,7 @@ public class UserDao {
         User user = new User();
         try {
             em = emf.createEntityManager();
-            Query query = em.createNamedQuery(username);
+            Query query = em.createQuery("Select u from User u where u.username = :username");
             query.setParameter("username", username);
             user = (User) query.getSingleResult();
         } catch (NoResultException nre) {
@@ -47,13 +48,13 @@ public class UserDao {
         }
         return user;
     }
-    
-    public List<User> findAllUser(){
+
+    public List<User> findAllUser() {
         List<User> users;
         users = this.em.createNamedQuery("Customer.findAll").getResultList();
         return users;
     }
-    
+
     /**
      * @return the em
      */
@@ -67,6 +68,5 @@ public class UserDao {
     public void setEm(EntityManager em) {
         this.em = em;
     }
-    
-    
+
 }

@@ -25,7 +25,7 @@
           p:prefix="/WEB-INF/jsp/"
           p:suffix=".jsp" />
     
-    <mvc:resources mapping="/resources/**" location="/resources/style/"
+    <mvc:resources mapping="/resources/**" location="/resources/template/"
 	cache-period="0"/>
     <mvc:annotation-driven />
     
