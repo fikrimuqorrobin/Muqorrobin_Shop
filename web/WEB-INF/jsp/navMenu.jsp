@@ -13,7 +13,7 @@
             <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                 <ul class="nav navbar-nav">
                     <li><a href="${pageContext.request.contextPath}/home" ><i class="glyphicon glyphicon-home"></i> Home</a></li>	
-                    <li><a href="${pageContext.request.contextPath}/product" ><i class="glyphicon glyphicon-phone"></i> Products</a></li>	
+                    <li><a href="${pageContext.request.contextPath}/cat/all" ><i class="glyphicon glyphicon-phone"></i> Products</a></li>	
                     <li><a href="#"><i class="glyphicon glyphicon-phone-alt"></i> About Us</a></li>
                     <li><a href="#"><i class="glyphicon glyphicon-shopping-cart"></i> My Cart : 0</a></li> 
                     

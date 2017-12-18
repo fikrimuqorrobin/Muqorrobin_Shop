@@ -17,7 +17,7 @@ public class CategoriController {
     @Autowired
     ProductDao pd;
     
-    @RequestMapping()
+    @RequestMapping("/all")
     public String toCategories(Model model){
         List<Brand> brands = pd.findAllBrand();
         model.addAttribute("brands", brands);

@@ -32,11 +32,10 @@
                     <h3>Brand</h3>
                     <div class="w3ls_mobiles_grid_left_grid_sub">
                         <ul class="panel_bottom">
-                            <li><a href="#">Samsung</a></li>
-                            <li><a href="#">Apple</a></li>
-                            <li><a href="#">LG</a></li>
-                            <li><a href="#">Sony</a></li>
-                            <li><a href="#">Xiaomi</a></li>
+                            <c:forEach var="b" items="${brands}">
+                                <li><a href="#">${b.brandName}</a></li>
+                            </c:forEach>
+                            
                         </ul>
                     </div>
                 </div>

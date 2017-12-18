@@ -32,7 +32,6 @@ public class IndexController {
         model.addAttribute("brands", brands);
         model.addAttribute("products", products);
         return "index";
-    }
-    
+    } 
    
 }
