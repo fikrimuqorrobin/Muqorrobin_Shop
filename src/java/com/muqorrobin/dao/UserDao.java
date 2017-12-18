@@ -49,12 +49,6 @@ public class UserDao {
         return user;
     }
 
-    public List<User> findAllUser() {
-        List<User> users;
-        users = this.em.createNamedQuery("Customer.findAll").getResultList();
-        return users;
-    }
-
     /**
      * @return the em
      */

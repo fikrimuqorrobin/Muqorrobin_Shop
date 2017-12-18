@@ -17,7 +17,7 @@
     <div class="container">
         <ul>
             <li><a href="${pageContext.request.contextPath}/home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a> <i>/</i></li>
-            <li>Sign Up</li>
+            <li><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> Sign Up</li>
         </ul>
     </div>
 </div>
@@ -63,3 +63,7 @@
     </div>
 </div>
 <!-- //Register -->
+
+ <!-- footer -->
+    <jsp:include page="footer.jsp"></jsp:include>
+<!-- //footer -->

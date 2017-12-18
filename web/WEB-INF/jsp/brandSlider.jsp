@@ -3,22 +3,12 @@
     <div class="container">
         <h3>Top Brands</h3>
         <div class="sliderfig">
-            <ul id="flexiselDemo1">			
-                <li>
-                    <img src="<c:url value="/resources/images/tb1.jpg"/>" alt=" " class="img-responsive" />
-                </li>
-                <li>
-                    <img src="<c:url value="/resources/images/tb2.jpg"/>" alt=" " class="img-responsive" />
-                </li>
-                <li>
-                    <img src="<c:url value="/resources/images/tb3.jpg"/>" alt=" " class="img-responsive" />
-                </li>
-                <li>
-                    <img src="<c:url value="/resources/images/tb4.jpg"/>" alt=" " class="img-responsive" />
-                </li>
-                <li>
-                    <img src="<c:url value="/resources/images/tb5.jpg"/>" alt=" " class="img-responsive" />
-                </li>
+            <ul id="flexiselDemo1">
+                <c:forEach var="b" items="${brands}" >
+                    <li>
+                        <img src="<c:url value="/resources/images/brand/${b.brandImage}"/>" width="200px" height="85px" alt=" " class="img-responsive" />
+                    </li>
+                </c:forEach>
             </ul>
         </div>
         <script type="text/javascript">

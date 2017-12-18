@@ -8,8 +8,8 @@
 <html>
     <head>
         <jsp:include page="linkStyle.jsp"></jsp:include>
-            <title>Muqorrobin Store</title>
-        </head>
+        <title>Muqorrobin Store</title>
+    </head>
 
         <body>
             <!-- header modal // Register or Login Form -->

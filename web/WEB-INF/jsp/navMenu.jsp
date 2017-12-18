@@ -13,48 +13,7 @@
             <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                 <ul class="nav navbar-nav">
                     <li><a href="${pageContext.request.contextPath}/home" ><i class="glyphicon glyphicon-home"></i> Home</a></li>	
-                    <!-- Mega Menu -->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-phone"></i> Products <b class="caret"></b></a>
-                        <ul class="dropdown-menu multi-column columns-3">
-                            <div class="row">
-                                <div class="col-sm-3">
-                                    <ul class="multi-column-dropdown">
-                                        <h6>Smart Phone</h6>
-                                        <li><a href="#">Samsung</a></li>
-                                        <li><a href="#">IPhone</a></li> 
-                                        <li><a href="#">Sony</a></li>
-                                        <li><a href="#">Xiaomi</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-3">
-                                    <ul class="multi-column-dropdown">
-                                        <h6>Laptop</h6>
-                                        <li><a href="#">Laptop Bussiness</a></li>
-                                        <li><a href="#">Laptop Gaming</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-3">
-                                    <ul class="multi-column-dropdown">
-                                        <h6>PC</h6>
-                                        <li><a href="#">Desktop</a></li>
-                                        <li><a href="#">PC Gaming</a></li>
-                                        <li><a href="#">Mini PC</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-3">
-                                    <ul class="multi-column-dropdown">
-                                        <h6>Console Game</h6>
-                                        <li><a href="#">Sony Playstation</a></li>
-                                        <li><a href="#">Microsoft Xbox</a></li>
-                                        <li><a href="#">Nintendo Wii</a></li>
-                                    </ul>
-                                </div>
-
-                                <div class="clearfix"></div>
-                            </div>
-                        </ul>
-                    </li>
+                    <li><a href="${pageContext.request.contextPath}/product" ><i class="glyphicon glyphicon-phone"></i> Products</a></li>	
                     <li><a href="#"><i class="glyphicon glyphicon-phone-alt"></i> About Us</a></li>
                     <li><a href="#"><i class="glyphicon glyphicon-shopping-cart"></i> My Cart : 0</a></li> 
                     
