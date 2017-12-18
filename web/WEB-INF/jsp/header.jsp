@@ -4,7 +4,7 @@
             <a href="#" data-toggle="modal" data-target="#myModal88"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
         </div>
         <div class="w3l_logo">
-            <h1><a href="index.html">Muqorrobin Store<span>Your stores. Your place.</span></a></h1>
+            <h1><a href="${pageContext.request.contextPath}/home">Muqorrobin Store<span>Your stores. Your place.</span></a></h1>
         </div>
         <div class="search">
             <input class="search_box" type="checkbox" id="search_box">
@@ -22,6 +22,6 @@
                 <input type="hidden" name="display" value="1" />
                 <button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
             </form>   
-        </div>  
+        </div>
     </div>
 </div>

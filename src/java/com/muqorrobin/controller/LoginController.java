@@ -62,7 +62,7 @@ public class LoginController {
     public String logout(HttpSession session, Model model) {
         session.invalidate();
         //session.removeAttribute("user");
-        return "index";
+        return "redirect:/home";
     }
     
 }

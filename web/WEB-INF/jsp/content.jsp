@@ -8,23 +8,7 @@
             <!-- pop-up-box -->     
             <script src="<c:url value="/resources/js/jquery.magnific-popup.js"/>" type="text/javascript"></script>
             <!--//pop-up-box -->
-           
-            <script>
-                $(document).ready(function () {
-                    $('.popup-with-zoom-anim').magnificPopup({
-                        type: 'inline',
-                        fixedContentPos: false,
-                        fixedBgPos: true,
-                        overflowY: 'auto',
-                        closeBtnInside: true,
-                        preloader: false,
-                        midClick: true,
-                        removalDelay: 300,
-                        mainClass: 'my-mfp-zoom-in'
-                    });
-
-                });
-            </script>
+ 
         </div>
         <div class="col-md-12 wthree_banner_bottom_right">
             <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">

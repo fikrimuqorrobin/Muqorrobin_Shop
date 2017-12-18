@@ -1,4 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
@@ -13,9 +14,7 @@
         <body>
             <!-- header modal // Register or Login Form -->
         <jsp:include page="headerModal.jsp"></jsp:include>
-            <script>
-                $('#myModal88').modal('show');
-            </script>  
+            
             <!-- //header modal -->
 
             <!-- header -->
@@ -29,7 +28,7 @@
             <!-- banner -->
             <div class="banner">
                 <div class="container">
-                    <h3>Electronic Store, <span>Special Offers</span></h3>
+                    <h3>Muqorrobin Store, <span>Special Offers</span></h3>
                 </div>
             </div>
             <!-- //banner --> 
@@ -43,7 +42,7 @@
             <!-- //new-products -->
 
             <!-- banner-bottom -->
-        <jsp:include page="content.jsp"></jsp:include>
+        
             <!-- //banner-bottom -->
 
             <!-- footer -->

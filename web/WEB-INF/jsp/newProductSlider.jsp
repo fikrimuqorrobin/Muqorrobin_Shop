@@ -7,10 +7,10 @@
                 <div class="agile_ecommerce_tab_left agileinfo_new_products_grid1">
                     <div class="hs-wrapper hs-wrapper1">
                         <img src="<c:url value="/resources/images/25.jpg"/>" alt=" " class="img-responsive" />
-                        <img src="<c:url value="/resources/images/23.jpg"/>" alt=" " class="img-responsive" />
-                        <img src="<c:url value="/resources/images/24.jpg"/>" alt=" " class="img-responsive" />
-                        <img src="<c:url value="/resources/images/22.jpg"/>" alt=" " class="img-responsive" />
-                        <img src="<c:url value="/resources/images/26.jpg"/>" alt=" " class="img-responsive" /> 
+                        <img src="<c:url value="/resources/images/25.jpg"/>" alt=" " class="img-responsive" />
+                        <img src="<c:url value="/resources/images/25.jpg"/>" alt=" " class="img-responsive" />
+                        <img src="<c:url value="/resources/images/25.jpg"/>" alt=" " class="img-responsive" />
+                        <img src="<c:url value="/resources/images/25.jpg"/>" alt=" " class="img-responsive" /> 
                         <div class="w3_hs_bottom w3_hs_bottom_sub">
                             <ul>
                                 <li>
