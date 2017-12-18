@@ -39,7 +39,7 @@ input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_in
 }
 .w3l_logo{
 	float:left;
-	margin-left:22em;
+	margin-left:24em;
 }
 .w3l_logo h1 a{
 	font-size:1.1em;
@@ -454,7 +454,7 @@ ul.multi-column-dropdown h6 {
     float: none;
 }
 .navbar-nav > li:nth-child(1) {
-    margin-left: 12em;
+    margin-left: 8em;
 } 
 .w3ls_products_pos h4 {
     font-size: 2em;

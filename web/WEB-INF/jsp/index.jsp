@@ -13,16 +13,15 @@
 
         <body>
             <!-- header modal // Register or Login Form -->
-        <jsp:include page="headerModal.jsp"></jsp:include>
-            
+                <jsp:include page="headerModal.jsp"></jsp:include>
             <!-- //header modal -->
 
             <!-- header -->
-        <jsp:include page="header.jsp"></jsp:include>
+                <jsp:include page="header.jsp"></jsp:include>
             <!-- //header -->
 
             <!-- navigation -->
-        <jsp:include page="navMenu.jsp"></jsp:include>
+                <jsp:include page="navMenu.jsp"></jsp:include>
             <!-- //navigation -->
 
             <!-- banner -->
@@ -34,21 +33,16 @@
             <!-- //banner --> 
 
             <!-- top-brands -->
-        <jsp:include page="brandSlider.jsp"></jsp:include>
+                <jsp:include page="brandSlider.jsp"></jsp:include>
             <!-- //top-brands --> 
 
             <!-- new-products -->
-        <jsp:include page="newProductSlider.jsp"></jsp:include>
+                <jsp:include page="newProductSlider.jsp"></jsp:include>
             <!-- //new-products -->
 
-            <!-- banner-bottom -->
-        
-            <!-- //banner-bottom -->
-
             <!-- footer -->
-        <jsp:include page="footer.jsp"></jsp:include>
-        <!-- //footer -->
-
+                <jsp:include page="footer.jsp"></jsp:include>
+            <!-- //footer -->
 
     </body>
 </html>
