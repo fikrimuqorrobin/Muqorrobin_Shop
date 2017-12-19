@@ -38,16 +38,8 @@ public class ProductDao {
     }
 
     public Product findById(Integer id) {
-        Product product = new Product();
-        try {
-            em = emf.createEntityManager();
-            Query query = em.createQuery("Select p from Product p where p.productID  = :id");
-            query.setParameter("productId", id);
-            product = (Product) query.getSingleResult();
-        } catch (NoResultException nre) {
-            logger.severe("Product Tidak Ditemukan");
-        }
-        return product;
+        em = emf.createEntityManager();
+        return em.find(Product.class, id);
     }
 
     public List<Product> findAllProduct() {
@@ -59,16 +51,8 @@ public class ProductDao {
     
     
     public Brand findBrandById(Integer id) {
-        Brand brand = new Brand();
-        try {
-            em = emf.createEntityManager();
-            Query query = em.createQuery("Select b from Brand b where b.brandID  = :id");
-            query.setParameter("brandId", id);
-            brand = (Brand) query.getSingleResult();
-        } catch (NoResultException nre) {
-            logger.severe("Brand Tidak Ditemukan");
-        }
-        return brand;
+        em = emf.createEntityManager();
+        return em.find(Brand.class, id);
     }
 
     public List<Brand> findAllBrand() {

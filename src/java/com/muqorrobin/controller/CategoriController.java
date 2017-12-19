@@ -27,13 +27,12 @@ public class CategoriController {
         return "products";
     }
         
-    @RequestMapping(value="/brand/{brandId}")
-    public String showOneBrand(@PathVariable Integer brandId ,Model model){
-        //Brand brand = pd.findBrandById(brandId);
-        //model.addAttribute("msg","Detail Customer "+cus.getName());
-        List<Product> products = pd.findProductByBrand(brandId);
-        model.addAttribute("products", products);
-        return "products";
+    @RequestMapping(value="/prod/{productID}")
+    public String showOneProduct(@PathVariable Integer productID ,Model model){
+        Product product = pd.findById(productID);
+        model.addAttribute("product", product);
+        return "detailProduct";
     }
+    
     
 }

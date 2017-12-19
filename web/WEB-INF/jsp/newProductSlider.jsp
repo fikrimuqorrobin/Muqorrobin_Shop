@@ -17,12 +17,12 @@
                             <div class="w3_hs_bottom w3_hs_bottom_sub">
                                 <ul>
                                     <li>
-                                        <a href="${pageContext.request.contextPath}/product/${p.productID}" data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+                                        <a href="${pageContext.request.contextPath}/cat/prod/${p.productID}" data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <h5><a href="${pageContext.request.contextPath}/product/${p.productID}">${p.productName}</a></h5>
+                        <h5><a href="${pageContext.request.contextPath}/cat/prod/${p.productID}">${p.productName}</a></h5>
                         <div class="simpleCart_shelfItem">
                             <p><i class="item_price">Rp. <d:formatNumber value="${p.price}" /></i></p>
                             <form action="#" method="post">
