@@ -78,6 +78,14 @@ public class ProductDao {
         return brands;
     }
     
+    public List<Product> findProductByBrand(Integer brandId){
+        em = emf.createEntityManager();
+        List<Product> products;
+        Brand selectedBrand = findBrandById(brandId);
+        products = this.em.createQuery("select p from Product p where p.brandCode = :selectedBrand").getResultList();
+        return products;
+    }
+    
 
     /**
      * @return the em
